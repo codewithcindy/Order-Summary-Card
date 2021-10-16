@@ -22,11 +22,14 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
+
+![Screenshot_Frontend Mentor Order summary card](https://user-images.githubusercontent.com/47929016/137604149-ecbe34c6-027a-4fc7-ba71-59707a85ea61.png)
+![Screenshot_Frontend Mentor Order summary card(1)](https://user-images.githubusercontent.com/47929016/137604150-ca649992-2d88-487f-9b8e-f1661800a530.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/codewithcindy/Order-Summary-Card.git)
 - Live Site URL: [Add live site URL here](https://fervent-murdock-2749e8.netlify.app/)
 
 ## My process
