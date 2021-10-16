@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --desturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-color: var(--pale-blue);
+  font-family: "Red Hat Display", sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 370px;
+  margin: 2rem;
+  background-color: var(--very-pale-blue);
+  border-radius: 15px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 1.8rem;
+}
+
+.card p {
+  padding: 0 3.1rem;
+  text-align: center;
+  opacity: 0.5;
+  /* color: var(--desturated-blue); */
+}
+.summary-item {
+  width: 80%;
+  margin: 2rem 1rem;
+  background-color: hsl(225, 100%, 96%);
+  padding: 1rem;
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-left {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item-description {
+  font-weight: 900;
+  line-height: 1.5;
+  margin-left: 1rem;
+}
+
+.item-description-cost {
+  display: block;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.item-option {
+  color: var(--bright-blue);
+  font-weight: 700;
+  padding-left: 1rem;
+  flex-basis: 2;
+}
+
+.item-option:hover {
+  text-decoration: none;
+}
+
+button {
+  width: 80%;
+  border: none;
+  padding: 1.1rem 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.9;
+  border-radius: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-payment {
+  background-color: var(--bright-blue);
+  color: var(--very-pale-blue);
+  box-shadow: 0 10px 20px var(--desturated-blue);
+  z-index: 1;
+}
+
+.btn-payment:hover {
+  opacity: 0.8;
+}
+
+.btn-cancel {
+  background-color: var(--very-pale-blue);
+  opacity: 0.5;
+}
+
+.btn-cancel:hover {
+  opacity: 1;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+  body {
+    background: var(--pale-blue) url(/images/pattern-background-desktop.svg)
+      no-repeat;
+  }
+
+  .card {
+    width: 400px;
+  }
+}
